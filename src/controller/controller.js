@@ -1,5 +1,6 @@
 const upload = async (req, res) =>{
     try{
+        console.log(req.body.description)
         console.log(req.file)
         return res.send("Image uploaded successfully!")
     }catch(error){
