@@ -18,11 +18,13 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Usage
 There is 2 endpoints waht we can use in this API.
-- ``` /upload ``` With this you can upload an image to the server.
+- ``` /upload ``` With this you can upload an image to the server. The name of the file input has to be ``` imageName ```
 - ``` /fetch ``` With this you can fetch all images from the server.
 
 ## Credits
-Collaborators
+### Collaborators
 - Rakonczai Ádám, [GitHub link](https://github.com/RakonczaiAdam)
-Tutorials
+### Tutorials
 - [high quality README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+- [multer](https://www.npmjs.com/package/multer)
+- [express](http://expressjs.com/en/starter/static-files.html#serving-static-files-in-express)
