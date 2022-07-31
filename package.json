@@ -24,6 +24,7 @@
   "homepage": "https://github.com/RakonczaiAdam/xund-test#readme",
   "dependencies": {
     "express": "^4.18.1",
+    "multer": "*",
     "nodemon": "^2.0.19"
   }
 }
