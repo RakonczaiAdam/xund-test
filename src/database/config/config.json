@@ -7,10 +7,16 @@
     "dialect": "postgres"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "ggbqpxepzsdtpz",
+    "password": "e261068871719e4960f43e4ed138fa380ecdb19c07cb04cae58f6b803f5e0be0",
+    "database": "deadjcp076jstm",
+    "host": "ec2-54-170-90-26.eu-west-1.compute.amazonaws.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+          "require": true,
+          "rejectUnauthorized": false
+      }
+   }
   }
 }
