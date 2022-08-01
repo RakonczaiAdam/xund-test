@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test</title>
+    </head>
+    <body>
+        <h1>TEST</h1>
+        <div id="images"></div>
+    </body>
+    <script type="text/javascript">
+        const baseUrl = 'http://localhost:3001/';
+        const fetchUrl = `${baseUrl}fetch`
+        fetch(fetchUrl).then(response => {
+          return response.json();
+        }).then(data => {
+          console.log(data);
+          let images = document.getElementById('images');
+          data.map(image=>{
+            images.innerHTML += `<img src="${baseUrl}${image.fileName}" alt="img" width="200" height="150"><br><br>`;
+          })
+        }).catch(err => {
+            console.log(err);
+        });
+    </script>
+</html>

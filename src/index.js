@@ -1,8 +1,15 @@
+require('dotenv').config()
 const express = require('express')
 const app = express()
-const routes = require('./routes')
+const routes = require('./route/routes')
+const cors = require('./service/cors')
 
 console.log("starting ...")
+console.log(`enviroment: ${process.env.NODE_ENV}`)
+
+app.use(cors)
+
+app.use(express.static('images'))
 
 app.use((req, res, next)=>{
     console.log(`${req.method} ${req.originalUrl}`)
