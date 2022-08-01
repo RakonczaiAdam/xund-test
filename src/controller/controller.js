@@ -23,7 +23,8 @@ const upload = async (req, res) =>{
 
 const fetch = async (req, res) =>{
     try{
-        return res.send("images!")
+        const images = await Images.findAll()
+        return res.json(images)
     }catch(error){
         console.error(error.message)
         return res.status(500).send(error.message)
