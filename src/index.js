@@ -5,7 +5,7 @@ const routes = require('./route/routes')
 const cors = require('./service/cors')
 
 console.log("starting ...")
-console.log(`enviroment: ${process.env.ENV_NAME}`)
+console.log(`enviroment: ${process.env.NODE_ENV}`)
 
 app.use(cors)
 
