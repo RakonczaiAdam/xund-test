@@ -25,7 +25,7 @@ If your README is long, add a table of contents to make it easy for users to fin
 ### Endpoints
 There is 2 endpoints what we can use in this API.
 - ``` /upload ``` With this you can upload an image to the server. The name of the file input field has to be ``` imageName ```, and the description input field has to be ``` description ```. 
-Example code: 
+#### Example code: 
 ``` 
 <form action="http://localhost:3001/upload" enctype="multipart/form-data" method="post">
     <label>Description</label><br>
