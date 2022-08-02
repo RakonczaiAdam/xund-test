@@ -5,9 +5,6 @@ import express from 'express'
 import routes from './route/routes'
 import cors from './service/cors'
 import config from './database/config/config.json'
-// const express = require('express')
-// const routes = require('./route/routes')
-// const cors = require('./service/cors')
 const app = express()
 
 console.log("starting ...")
