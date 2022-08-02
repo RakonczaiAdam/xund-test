@@ -1,6 +1,4 @@
 const router = require('express').Router()
-// const controller = require('../controller/controller')
-// const uploader = require('../service/multer')
 import controller from '../controller/controller'
 import uploader from '../service/multer'
 

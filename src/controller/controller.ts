@@ -1,5 +1,3 @@
-// const { Images } = require('../database/models')
-// const sizeOf = require('image-size')
 import {Request, Response} from 'express'
 import sizeOf from 'image-size'
 const { Images } = require('../database/models')

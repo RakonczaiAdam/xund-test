@@ -1,6 +1,5 @@
 import { Request } from "express"
 import multer from 'multer'
-// const multer = require('multer')
 
 const engine = multer.diskStorage({
     destination: (req: Request, file: MyFile, cb: Function)=>{
@@ -14,5 +13,4 @@ const engine = multer.diskStorage({
 
 const uploader = multer({storage: engine})
 
-// module.exports = uploader
 export default uploader

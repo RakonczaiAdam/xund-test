@@ -1,19 +1,6 @@
 'use strict';
 
-// const {
-//   Model
-// } = require('sequelize');
 import { Model, InferAttributes, InferCreationAttributes } from 'sequelize';
-
-// interface ImageAttributes {
-//   fileName: string,
-//   fileSize: number,
-//   width: number,
-//   height: number,
-//   uploaded: Date,
-//   sourceIp: string,
-//   description: string
-// }
 
 module.exports = (sequelize: any, DataTypes: any) => {
   class Images extends Model<InferAttributes<Images>, InferCreationAttributes<Images>> {
