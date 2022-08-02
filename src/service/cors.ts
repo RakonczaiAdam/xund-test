@@ -1,5 +1,5 @@
 const cors = require('cors')
-const corsOptions = {
+const corsOptions: Object = {
     origins: '*',
     methods: [
         'POST',
@@ -9,4 +9,4 @@ const corsOptions = {
     optionSuccessStatus: 200,
 }
 
-module.exports = cors(corsOptions)
+export default cors(corsOptions)
