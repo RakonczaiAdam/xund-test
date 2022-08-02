@@ -15,8 +15,9 @@ If your README is long, add a table of contents to make it easy for users to fin
 1. Clone the github repository. ``` git clone https://github.com/RakonczaiAdam/xund-test.git ```.
 2. Install the node modules with the foolowing command ``` npm i ```.
 3. Configure the ``` config.json ``` file based on your database connection properties inside ``` src/database/config```  folder
-4. Run ``` npm run migrate ``` command to create the database table
-5. Ready to start. Type the ``` npm start ``` command to start the API.
+4. Run ``` npm run migrate ``` command to create the database table.
+5. Run ``` tsc ``` command.
+6. Ready to start. Type the ``` npm start ``` command to start the API.
 
 ## Usage
 ### live API
